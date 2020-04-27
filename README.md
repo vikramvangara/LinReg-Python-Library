@@ -3,7 +3,7 @@
 This Repository contains LinReg library to perform simple linear regression with single dependant and independant variables.
 
 You can go through the LinReg.py file to understand its working.
-A guide on using the same will be published soon.
+A guide on using the same is in file "Manual.pdf".
 
 Follow the below steps to get it insatlled:
   
