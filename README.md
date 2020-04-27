@@ -17,3 +17,17 @@ Follow the below steps to get it insatlled:
   Step 4: Now open the Python IDLE and import it with name "import LinReg" ans start using the functions in it.
   
   **Kindly Note for editors other than Python IDLE find the location where its packages are installed and paste the LinReg.py file in the same location.
+
+Small sample code is provided below to get the regression coefficients as a list:
+
+---
+
+import LinReg
+
+x = LinReg.train('/Users/Vikram/Desktop/data.txt',stype='tab')
+
+print(x)
+
+---
+
+Here 'train' function returns a list containing the slope and intercept values of the given data. The first argument is the data file name with its location, the second argument is the 'stype'-seperation type, which can currently hold two values, i.e. 'tab' and 'csv'. The default stype is set to 'csv'.
